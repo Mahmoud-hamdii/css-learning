@@ -1,0 +1,40 @@
+div{
+    margin-left: 20px;
+    display: inline-block;
+}
+.ass-2{
+    background-image: url(../images/img-3.jpg) ;
+    width:400px ;
+    height: 400px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+    background-size: 80% ;
+}
+.ass-3{
+    background-image: url(../images/img-3.jpg) ;
+    width:400px ;
+    height: 400px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+    background-size: 80% 100%;
+
+}
+.ass-4{
+    background-image: url(../images/img-3.jpg) ;
+    width:400px ;
+    height: 400px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+    background-size: 100% 80%;
+}
+.ass-5{
+    background-image: url(../images/img-3.jpg) ;
+    width:400px ;
+    height: 400px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+}

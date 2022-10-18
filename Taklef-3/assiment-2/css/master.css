@@ -1,0 +1,17 @@
+body{ 
+    margin: 50px;
+}
+.one , .tow , .three , .four{
+    width:fit-content ;
+    max-width: 400px;
+    max-height: 70px;
+    overflow: auto;
+    background-color: aqua;
+    color: black;
+    border-bottom: 3px black solid;
+    margin-top: 20px;
+}
+h1 , p {
+    margin: 0;
+    padding: 10px;
+}

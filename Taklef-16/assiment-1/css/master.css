@@ -1,0 +1,58 @@
+div {
+    margin: 50px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 5px solid rgb(0, 0, 255);
+    border-left: 5px solid transparent;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: loop;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+div:hover {
+    animation-play-state: paused;
+}
+@keyframes loop {
+    to{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+}
+div::after {
+    content: '';
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 5px solid red;
+    border-top: 5px solid transparent;
+    position: absolute;
+}
+div::before {
+    content: '';
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 5px solid black;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+}

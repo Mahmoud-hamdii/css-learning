@@ -1,0 +1,23 @@
+
+div {
+    background-color: lightgray;
+    width: 400px;
+    height: 60px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    line-height:60px;
+}
+div:empty {
+    background-color: rgb(250, 0, 0);
+    width: 400px;
+    height: 60px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    line-height:60px;
+}

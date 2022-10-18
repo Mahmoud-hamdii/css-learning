@@ -1,0 +1,32 @@
+.one {
+    margin: 30px auto;
+    width: 80%;
+    background-color: lightgray;
+    border: 4px solid blue;
+    padding: 40px;
+}
+.one p {
+    margin: inherit;
+    padding: inherit;
+    text-align: center;
+    background-color: aqua;
+    border:inherit ;
+    width: inherit;
+    font-size: xx-large;
+}
+.two {
+    margin: 30px auto;
+    width: 80%;
+    background-color: lightgray;
+    border: 6px solid rgb(0, 255, 98);
+    padding: 40px;
+}
+.two p {
+    margin: inherit;
+    padding: inherit;
+    text-align: center;
+    background-color: aqua;
+    border:inherit ;
+    width: inherit;
+    font-size: xx-large;
+}

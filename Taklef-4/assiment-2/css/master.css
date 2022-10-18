@@ -1,0 +1,19 @@
+p{
+    background-color: aqua;
+    margin-left: 500px;
+    padding: 25px;
+    font-size: xx-large;
+    width: fit-content;
+}
+.one{
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+.tow{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.three{
+    letter-spacing: 3px;
+    text-transform: lowercase;
+}

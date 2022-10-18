@@ -1,0 +1,36 @@
+.ass-1{
+    width: 25%;
+    background-color: gray;
+    margin-top: 20px;
+    margin-left: 37.5%;
+    height: 150px;
+    display: inline-block;
+}
+.ass-2{
+    width: 25%;
+    background-color: gray;
+    margin-top: 20px;
+    margin-left: 37.5%;
+    height: 150px;
+    display: inline-block;
+    visibility: hidden;
+}
+.in-side{
+    width: 70%;
+    height: 50px;
+    border-width: 0px 0px 0px 10px;
+    border-color:gray gray gray blue;
+    border-style: solid;
+    margin-top: 45px;
+    display: inline-block;;
+    font-size: 25px;
+    margin-left: 20px;
+}
+p{
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+
+

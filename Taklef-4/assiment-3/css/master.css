@@ -1,0 +1,17 @@
+.one , .two , .three{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 400px;
+    background-color: aqua;
+    font-size: x-large;
+    padding: 20px;
+}
+.one{
+    height: fit-content;
+}
+.two{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 30px;
+}

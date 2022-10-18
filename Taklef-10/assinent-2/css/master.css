@@ -1,0 +1,16 @@
+div {
+    background-color: #eee !important;
+    color: #eee !important; 
+    padding: 20px;
+    border: 1px solid #eee !important;
+    position: relative !important;
+}
+div:after {
+    content:'EL-ZERO';
+    color: black;
+    font-size: 80px;
+    position: absolute;
+    left: 50%;
+    margin-left: -230px;
+
+}

@@ -1,0 +1,43 @@
+h1 {
+    margin: 50px auto;
+    padding: 10px;
+    width: fit-content;
+    font-size: xx-large;
+    background-color: orangered;
+    color: white;
+    position: relative;
+}
+ h1::before {
+    content: '';
+    height: 57px;
+    width: 100%;
+    font-size: xx-large;
+    background-color: orangered;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transform: skew(15deg , 15deg);
+    -webkit-transform: skew(15deg , 15deg);
+    -moz-transform: skew(15deg , 15deg);
+    -ms-transform: skew(15deg , 15deg);
+    -o-transform: skew(15deg , 15deg);
+}
+h1::after {
+    content: '';
+    height: 57px;
+    width: 100%;
+    font-size: xx-large;
+    background-color: orangered;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    transform: skew(-15deg , -15deg);
+    -webkit-transform: skew(-15deg , -15deg);
+    -moz-transform: skew(-15deg , -15deg);
+    -ms-transform: skew(-15deg , -15deg);
+    -o-transform: skew(-15deg , -15deg);
+} 

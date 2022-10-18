@@ -1,0 +1,10 @@
+h1 {
+    background-color: aquamarine;
+    margin: 50px;
+    padding: 20px;
+    width: fit-content;
+    text-shadow: 1px 1px #190eb8 , 2px 2px blueviolet , 3px 3px rgb(94, 76, 110) , 4px 4px rgb(235, 76, 150) ;
+    
+
+    
+}

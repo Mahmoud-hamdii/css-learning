@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.grid {
+  font: arial;
+  margin: auto;
+  width: 70%;
+  /* height: 100%; */
+  display: grid;
+  grid-template-rows: repeat(7,15%);
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  padding: 20px;
+}
+.grid div {
+  padding: 10px;
+  background-color: #eee;
+  border-bottom: 3px solid rgb(211, 77, 77);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content min-content min-content min-content ;
+  gap: 10px;
+}
+.grid div h3 {
+  display: grid;
+  grid-area: 1/1/2/2;
+}
+.grid div h5 {
+  display: grid;
+  grid-area: 2/1/3/2;
+}
+.grid div h4 {
+  display: grid;
+  grid-area: 3/1/4/2;
+}
+.grid div p {
+  display: grid;
+  grid-area: 4/1/5/2;
+}
+.osama-mohamed {
+  display: grid;
+  grid-area: 1/1/3/3;
+}
+.ahmed-sayed {
+  display: grid;
+  grid-area: 1/3/3/4;
+}
+.shady-nabil {
+  background-color: black !important;
+  color: white;
+  display: grid;
+  grid-area: 1/4/7/5;
+}
+.mohamed-ibrahem {
+  display: grid;
+  grid-area: 3/1/7/2;
+}
+.mahmoud-mohamed {
+  background-color: black !important;
+  color: white;
+  display: grid;
+  grid-area: 3/2/5/4;
+}
+.ezz-eldin {
+  display: grid;
+  grid-area: 5/2/7/4;
+}
+.mohamed-sayed {
+  display: grid;
+  grid-area: 7/1/8/2;
+}
+.ibrahem-sayed {
+  background-color: black !important;
+  color: white;
+  display: grid;
+  grid-area: 7/2/8/3;
+}
+.gamal-sayed {
+  display: grid;
+  grid-area: 7/3/8/4;
+}
+.eman-sayed {
+  display: grid;
+  grid-area: 7/4/8/5;
+}

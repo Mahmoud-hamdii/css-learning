@@ -1,0 +1,36 @@
+div{
+    margin-top: 20px;
+}
+.ass-2{
+    background-image: url(../images/img-3.jpg) ;
+    width:400px ;
+    height: 400px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+}
+.ass-3{
+    background-image: url(../images/img-3.jpg) ;
+    width:400px ;
+    height: 400px;
+    background-position: top left;
+    background-repeat: repeat;
+    background-color: aquamarine;
+
+}
+.ass-4{
+    background-image: url(../images/img-3.jpg) ;
+    width:400px ;
+    height: 400px;
+    background-position: top left;
+    background-repeat: repeat-y;
+    background-color: aquamarine;
+}
+.ass-5{
+    background-image: url(../images/img-3.jpg) ;
+    width:400px ;
+    height: 400px;
+    background-position: top left;
+    background-repeat: repeat-x;
+    background-color: aquamarine;
+}

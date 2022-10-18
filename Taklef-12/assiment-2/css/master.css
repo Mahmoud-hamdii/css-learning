@@ -1,0 +1,27 @@
+p {
+    width: 600px;
+    font-size: 60px;
+    padding: 30px; 
+    background-color: #eee;
+    caret-color: orange;
+    position: relative;
+    opacity: 40%;
+}
+p:hover {
+    width: 600px;
+    font-size: 60px;
+    padding: 30px; 
+    background-color: #eee;
+    caret-color: orange;
+    position: relative;
+    opacity: 100%;
+}
+p:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 10px;
+    left: 0px;
+    bottom: -10px;
+    background-image: linear-gradient(to right ,orange 50% , blue 50% ,blue 100%);
+}

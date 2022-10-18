@@ -1,0 +1,26 @@
+body{
+    margin: 100px;
+}
+a{
+   font-size: xx-large;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: aqua;
+   border-bottom: 8px solid #2fa7a7;
+   border-radius: 8px;
+   padding: 15px 20px;
+   color: azure;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+a:hover{
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aqua;
+    border-bottom: 8px solid #3ebbbb;
+    border-radius: 8px;
+    padding: 15px 20px;
+    color: rgb(109, 109, 109);
+    text-decoration: none;
+    text-transform: capitalize;
+ }
+

@@ -1,0 +1,34 @@
+p {
+    background-color: lightgray;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    margin: 40px auto;
+    width:750px ;
+    position: relative;
+    border-left: 10px blue solid;
+}
+p:before {
+    content:'';
+    height: 0;
+    width: 0;
+    border-style:solid ;
+    border-color: transparent blue transparent transparent;
+    border-width: 30px;
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    margin-top: -30px;
+}
+p:after {
+    content:attr(data-person);
+    width: 101.45px;
+    height: fit-content;
+    padding: 40px;
+    background-color: lightgray;
+    position: absolute;
+    left: -220px;
+    top: 50%;
+    margin-top: -60px;
+}

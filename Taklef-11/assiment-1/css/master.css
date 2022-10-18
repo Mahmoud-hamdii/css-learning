@@ -1,0 +1,25 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    color: #ff5722;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow:5px 0px 0 0 #ff5722 ,-5px 0px 0 0 #03a9f4;
+    transition-duration:1s;
+}
+div:hover {
+    width: 75px;
+    height: 75px;
+    background-color:#03a9f4 ;
+    color: #b12c03;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow:5px 0px 0 0 #ff5722 ,-5px 0px 0 0 #ff5722;
+}

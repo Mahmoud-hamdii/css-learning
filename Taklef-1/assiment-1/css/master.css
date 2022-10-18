@@ -1,0 +1,28 @@
+div {
+    width: 500px ;
+    height: 100px;
+    padding-top: 20px
+}
+/* ass-1 style */
+.ass-1 {
+    background-color: hsl(271, 76%, 53%);
+    font-family: tahoma;
+    font-size: xx-large;
+    color: white;
+}
+/* ass-2 style */
+.ass-2 {
+    background-color: hsla(271, 76%, 53%, 0.5);
+    margin-top: 20px;
+    font-family: tahoma;
+    font-size: xx-large;
+    color: white;
+}
+/* ass-3 style */
+.ass-3 {
+    background-color: hsla(271, 76%, 53%, 0.1);
+    margin-top: 20px;
+    font-family: tahoma;
+    font-size: xx-large;
+    color: white;
+}
